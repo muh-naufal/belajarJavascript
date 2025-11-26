@@ -1,0 +1,22 @@
+[
+  { "nama": "Alya",     "nilai_ujian": 85, "nilai_absensi": 90 },
+  { "nama": "Bima",     "nilai_ujian": 72, "nilai_absensi": 78 },
+  { "nama": "Citra",    "nilai_ujian": 68, "nilai_absensi": 88 },
+  { "nama": "Dion",     "nilai_ujian": 55, "nilai_absensi": 60 },
+  { "nama": "Eka",      "nilai_ujian": 93, "nilai_absensi": 95 },
+  { "nama": "Fani",     "nilai_ujian": 74, "nilai_absensi": 82 },
+  { "nama": "Gilang",   "nilai_ujian": 88, "nilai_absensi": 76 },
+  { "nama": "Hera",     "nilai_ujian": 64, "nilai_absensi": 81 },
+  { "nama": "Indra",    "nilai_ujian": 97, "nilai_absensi": 99 },
+  { "nama": "Jasmine",  "nilai_ujian": 49, "nilai_absensi": 55 },
+  { "nama": "Kiko",     "nilai_ujian": 75, "nilai_absensi": 72 },
+  { "nama": "Luna",     "nilai_ujian": 69, "nilai_absensi": 79 },
+  { "nama": "Miko",     "nilai_ujian": 33, "nilai_absensi": 84 },
+  { "nama": "Nadia",    "nilai_ujian": 92, "nilai_absensi": 78 },
+  { "nama": "Oskar",    "nilai_ujian": 82, "nilai_absensi": 87 },
+  { "nama": "Pia",      "nilai_ujian": 58, "nilai_absensi": 86 },
+  { "nama": "Qori",     "nilai_ujian": 73, "nilai_absensi": 74 },
+  { "nama": "Raka",     "nilai_ujian": 95, "nilai_absensi": 90 },
+  { "nama": "Sani",     "nilai_ujian": 61, "nilai_absensi": 67 },
+  { "nama": "Tara",     "nilai_ujian": 47, "nilai_absensi": 82 }
+]

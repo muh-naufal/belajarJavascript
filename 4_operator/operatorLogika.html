@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika</title>
+</head>
+<body>
+    <script>
+
+        fetch("..//4_operator/dataJson/dataMurid.json")
+        .then(response => {
+            if (!response.ok)
+                throw new Error("Network response was not ok ");
+                return response.json();
+            })
+        .then(data => {
+        const nama = data.nama;
+        const nilaiAbsensi = data.nilai_absensi;
+        const nilaiUjian = data.nilai_ujian;
+
+        const lulusAbsen = nilaiAbsensi >= 75;
+        const lulusUjian = nilaiUjian >= 70;
+        const lulus = lulusAbsen && lulusUjian;
+
+        document.writeln ("Nama: " + nama + "<br>");
+        document.writeln ("Nilai Absen: " + nilaiAbsen + "<br>");   
+        document.writeln ("Nilai Ujian: " + nilaiUjian + "<br>");
+        document.writeln ("Passing Grade Absen: 75<br>");
+        document.writeln ("Passing Grade Ujian: 70<br>");
+        document.writeln (nama + " dinyatakan " + (lulus ? "Lulus" : "Tidak Lulus") + "<br>");
+        })
+
+        .catch(err => {
+            alert ("Gagal memuat data : " + err.message);
+        });
+    
+        </script>   
+</body>
+</html>
